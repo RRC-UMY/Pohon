@@ -71,7 +71,6 @@
     font: 600 0.875rem/0.875rem "Open Sans", sans-serif;
     padding-right: 100px;
     padding-left: 100px;
-    background-color: #113448;
 }
 
 .navbar-custom.top-nav-collapse {
@@ -187,7 +186,7 @@
 
 .position-custom-1 {
     position: relative;
-    padding-top: 320px;
+    padding-top: 220px;
     padding-left: 50px;
 }
 
@@ -206,6 +205,11 @@
 @media (min-width: 768px) {
     .deskripsi-box-custom-1 {
         width: 600px;
+    }
+    .position-custom-1 {
+        position: relative;
+        padding-top: 320px;
+        padding-left: 50px;
     }
 }
 
