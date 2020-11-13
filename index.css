@@ -174,3 +174,41 @@
     display: inline-block;
     margin-right: 0.125rem;
 }
+
+/* background jumbotron home */
+
+.topbg-1 {
+    background-image: url('./lib/assets/img/home/jumbotron_bg.jpg');
+    background-position-y: 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000px;
+}
+
+.position-custom-1 {
+    position: relative;
+    padding-top: 320px;
+    padding-left: 50px;
+}
+
+.deskripsi-box-custom-1 {
+    width: 300px;
+}
+
+/* button */
+
+.btn.btn-primary-custom {
+    border-radius: 20px;
+    background-color: #C4C4C4;
+    width: 300px;
+}
+
+@media (min-width: 768px) {
+    .deskripsi-box-custom-1 {
+        width: 600px;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
