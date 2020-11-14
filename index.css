@@ -336,6 +336,10 @@
     .text-container-padding {
         padding-top: 0px;
     }
+
+    .text-container-padding-1 {
+        padding-top: 120px;
+    }
 }
 
 @media (min-width: 1200px) {
