@@ -25,7 +25,7 @@
         }
         else {
             $("nav").removeClass("bg-light");
-            $("nav").addClass("navbar-light");
+            $("nav").addClass("navbar-dark");
             $("#logoPojok").addClass("brand-light");
             $("#logoPojok").removeClass("brand-dark");
             

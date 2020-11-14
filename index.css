@@ -177,7 +177,7 @@
 /* background jumbotron home */
 
 .topbg-1 {
-    background-image: url('./lib/assets/img/home/jumbotron_bg.jpg');
+    background-image: url('./lib/assets/img/home/Deskripsi_Pohon_1.jpg');
     background-position-y: 0px;
     background-size: cover;
     background-attachment: fixed;
@@ -202,6 +202,105 @@
     width: 300px;
 }
 
+/* intro */
+
+.intro-align {
+    text-align: center;
+}
+
+.basic-1 {
+    padding-top: 6.5rem;
+    padding-bottom: 3rem;
+}
+
+.basic-1 .text-container {
+    margin-bottom: 3rem;
+}
+
+.basic-1 .section-title {
+    margin-bottom: 0.5rem;
+}
+
+.basic-1 h2 {
+    margin-bottom: 1.375rem;
+}
+
+.basic-1 .testimonial-author {
+    color: #484a46;
+}
+
+.img-home-1 {
+    width: 360px;
+    height: 460px;
+}
+
+.img-home-1-custom {
+    background-size: 20%;
+}
+
+/* Hover Animation */
+
+.basic-1 .image-container {
+    overflow: hidden;
+    border-radius: 0.25rem;
+}
+
+.basic-1 .image-container img {
+    margin: 0;
+    border-radius: 0.25rem;
+    transition: all 0.3s;
+}
+
+.basic-1 .image-container:hover img {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+/* iframe */
+
+.iframe-custom {
+    width: 480px;
+    height: 360px;
+}
+
+.iframe-custom-1 {
+    width: 480px;
+    height: 360px;
+}
+
+.text-container-padding {
+    padding-top: 50px;
+}
+
+@media (min-width: 375px) {
+    .iframe-custom {
+        width: 345px;
+        height: 360px;
+    }
+}
+
+@media (min-width: 411px) {
+    .iframe-custom {
+        width: 384px;
+        height: 360px;
+    }
+}
+
+@media (min-width: 520px) {
+    .iframe-custom {
+        width: 500px;
+        height: 360px;
+    }
+}
+
+@media (min-width: 530px) {
+    .iframe-custom {
+        width: 520px;
+        height: 360px;
+    }
+}
+
 @media (min-width: 768px) {
     .deskripsi-box-custom-1 {
         width: 600px;
@@ -211,8 +310,37 @@
         padding-top: 320px;
         padding-left: 50px;
     }
+    .iframe-custom {
+        width: 691px;
+        height: 360px;
+    }
 }
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .intro-align {
+        text-align: left;
+    }
+    .text-container-padding {
+        padding-top: 0px;
+    }
+    .iframe-custom {
+        width: 531px;
+        height: 450px;
+    }
+}
 
-@media (min-width: 1200px) {}
+@media (min-width: 1024px) {
+    .intro-align {
+        text-align: left;
+    }
+    .text-container-padding {
+        padding-top: 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .iframe-custom {
+        width: 635px;
+        height: 450px;
+    }
+}
