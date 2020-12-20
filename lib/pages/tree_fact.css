@@ -1,0 +1,97 @@
+.topbg-2 {
+    background-image: url('../assets/img/about_trees/Deskripsi_Pohon_2.jpg');
+    background-position-y: 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 780px;
+}
+
+.position-custom-2 {
+    align-self: center;
+    text-align: center;
+    padding-top: 300px;
+}
+
+/* deskripsi */
+
+.des-align {
+    text-align: center;
+}
+
+.text-container-padding-5 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.text-container-padding-6 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hr-bold {
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray
+}
+
+.basic-2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.basic-2 .text-container {
+    margin-bottom: 3rem;
+}
+
+.basic-2 .section-title {
+    margin-bottom: 0.5rem;
+}
+
+.basic-2 h2 {
+    margin-bottom: 1.375rem;
+}
+
+.basic-2 .testimonial-author {
+    color: #484a46;
+}
+
+/* Hover Animation */
+
+.basic-2 .content-align {
+    text-align: center;
+}
+
+.basic-2 .image-container {
+    overflow: hidden;
+    border-radius: 0.25rem;
+}
+
+.basic-2 .image-container img {
+    margin: 0;
+    border-radius: 0.25rem;
+    transition: all 0.3s;
+}
+
+.basic-2 .image-container:hover img {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.topbg-3 {
+    background-image: url('../assets/img/about_trees/Card.jpg');
+    background-position-y: 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 250px;
+}
+
+.tron_center {
+    float: none;
+    text-align: center;
+}
+
+.tron_position {
+    padding-bottom: 50px;
+}
