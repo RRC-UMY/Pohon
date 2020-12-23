@@ -1,0 +1,133 @@
+/* Hover */
+
+.basic-3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.basic-3 .text-container {
+    margin-bottom: 3rem;
+}
+
+.basic-3 .section-title {
+    margin-bottom: 0.5rem;
+}
+
+.basic-3 h2 {
+    margin-bottom: 1.375rem;
+}
+
+.basic-3 .testimonial-author {
+    color: #484a46;
+}
+
+/* Hover Animation */
+
+.basic-3 .content-align {
+    text-align: center;
+}
+
+.basic-3 .image-container {
+    overflow: hidden;
+    border-radius: 0.25rem;
+}
+
+.basic-3 .image-container img {
+    margin: 0;
+    border-radius: 0.25rem;
+    transition: all 0.3s;
+}
+
+.basic-3 .image-container:hover img {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+/* jumbotron */
+
+.topbg-4 {
+    background-image: url('../assets/img/how_to_conserve/hiking-691738.jpg');
+    background-position-y: 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 780px;
+}
+
+.position-custom-4 {
+    align-self: center;
+    text-align: center;
+    padding-top: 300px;
+}
+
+/* carousel */
+
+.title-carousel-position-custom {
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+.des-align {
+    text-align: center;
+}
+
+.text-container-padding-5 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.text-container-padding-7 {
+    padding-top: 10px;
+}
+
+.hr-bold {
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray
+}
+
+.basic-2 {
+    padding-top: 0rem;
+    padding-bottom: 3rem;
+}
+
+@media (min-width: 375px) {
+    .topbg-4 {
+        background-position-y: 0px;
+    }
+}
+
+@media (min-width: 411px) {
+    .topbg-4 {
+        background-position-y: 0px;
+    }
+}
+
+@media (min-width: 520px) {
+    .topbg-4 {
+        background-position-y: 0px;
+    }
+}
+
+@media (min-width: 530px) {
+    .topbg-4 {
+        background-position-y: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+    .topbg-4 {
+        background-position-y: 0px;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1024px) {
+    .topbg-4 {
+        background-position-y: -300px;
+    }
+}
+
+@media (min-width: 1200px) {}
