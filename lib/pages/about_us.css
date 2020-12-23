@@ -1,0 +1,77 @@
+.circle-avatar {
+    border-radius: 50%;
+}
+
+.jumbotron-bright {
+    filter: brightness(10%);
+}
+
+.feature {
+    padding: 12px;
+    width: 276px;
+    max-width: 276px;
+    flex-grow: 1
+}
+
+.feature-inner {
+    height: 100%;
+    background: #fff;
+    padding: 40px 24px;
+    box-shadow: 0 16px 48px black
+}
+
+.des-align {
+    text-align: center;
+}
+
+.features-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -12px;
+    margin-left: -12px
+}
+
+.padding-center {
+    padding-top: 80px;
+}
+
+@media (min-width: 375px) {
+    .topbg-1 {
+        height: 2650px;
+    }
+}
+
+@media (min-width: 411px) {
+    .topbg-1 {
+        height: 2550px;
+    }
+}
+
+@media (min-width: 520px) {
+    .topbg-1 {
+        height: 1550px;
+    }
+}
+
+@media (min-width: 530px) {
+    .topbg-1 {
+        height: 2500px;
+    }
+}
+
+@media (min-width: 768px) {
+    .topbg-1 {
+        height: 1550px;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1024px) {
+    .topbg-1 {
+        height: 1000px;
+    }
+}
+
+@media (min-width: 1200px) {}
