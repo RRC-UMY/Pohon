@@ -24,6 +24,7 @@
             $("#logoPojok").removeClass("brand-light");
             $("#posisilogo").removeClass("navbar-brand-position");
             $("#navbarsExampleDefault").removeClass("navbar-link-position");
+            $("#myBtn").addClass("show");
 
         }
         else {
@@ -33,6 +34,7 @@
             $("#logoPojok").removeClass("brand-dark");
             $("#posisilogo").addClass("navbar-brand-position");
             $("#navbarsExampleDefault").addClass("navbar-link-position");
+            $("#myBtn").removeClass("show");
 
         }
     });
@@ -46,4 +48,13 @@
 
     });
 
-})(jQuery);
+
+}
+)(jQuery);
+
+function topFunction() {
+    var body = $('html, body');
+
+    body.animate({ scrollTop: 0 }, 500, 'swing');
+
+}

@@ -48,7 +48,7 @@
 
 .topbg-4 {
     background-image: url('../assets/img/tree_species/flowers-4559785.jpg');
-    background-position-y: -300px;
+    background-position-y: 0px;
     background-size: cover;
     background-attachment: fixed;
     height: 780px;
@@ -65,4 +65,53 @@
 .title-carousel-position-custom {
     padding-left: 15px;
     padding-top: 30px;
+}
+
+@media (min-width: 375px) {
+    .topbg-4 {
+        background-position-y: 0px;
+    }
+}
+
+@media (min-width: 411px) {
+    .topbg-4 {
+        background-position-y: 0px;
+    }
+}
+
+@media (min-width: 520px) {
+    .topbg-4 {
+        background-position-y: 0px;
+    }
+}
+
+@media (min-width: 530px) {
+    .topbg-4 {
+        background-position-y: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+    .topbg-4 {
+        background-position-y: 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    .topbg-4 {
+        background-position-y: 0px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .topbg-4 {
+        background-position-y: 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .topbg-4 {
+        background-position-y: 0px;
+    }
 }

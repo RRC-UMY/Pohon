@@ -2,6 +2,14 @@
     border-radius: 50%;
 }
 
+.topbg-2 {
+    background-image: url('../assets/img/about_us/footer.jpg');
+    background-position-y: 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000px;
+}
+
 .jumbotron-bright {
     filter: brightness(10%);
 }
@@ -37,31 +45,31 @@
 }
 
 @media (min-width: 375px) {
-    .topbg-1 {
+    .topbg-2 {
         height: 2650px;
     }
 }
 
 @media (min-width: 411px) {
-    .topbg-1 {
+    .topbg-2 {
         height: 2550px;
     }
 }
 
 @media (min-width: 520px) {
-    .topbg-1 {
+    .topbg-2 {
         height: 1550px;
     }
 }
 
 @media (min-width: 530px) {
-    .topbg-1 {
+    .topbg-2 {
         height: 2500px;
     }
 }
 
 @media (min-width: 768px) {
-    .topbg-1 {
+    .topbg-2 {
         height: 1550px;
     }
 }
@@ -69,7 +77,7 @@
 @media (min-width: 992px) {}
 
 @media (min-width: 1024px) {
-    .topbg-1 {
+    .topbg-2 {
         height: 1000px;
     }
 }
