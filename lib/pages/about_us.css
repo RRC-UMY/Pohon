@@ -15,14 +15,15 @@
 }
 
 .feature {
-    padding: 12px;
-    width: 276px;
-    max-width: 276px;
-    flex-grow: 1
+    padding: 15px;
+    width: 280px;
+    max-width: 280px;
+    flex-grow: 1;
 }
 
 .feature-inner {
     height: 100%;
+    border-radius: 10px;
     background: #fff;
     padding: 40px 24px;
     box-shadow: 0 16px 48px black
@@ -78,8 +79,18 @@
 
 @media (min-width: 1024px) {
     .topbg-2 {
-        height: 1000px;
+        height: 1400px;
     }
 }
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .topbg-2 {
+        height: 1400px;
+    }
+}
+
+@media (min-width: 1375px) {
+    .topbg-2 {
+        height: 1000px;
+    }
+}

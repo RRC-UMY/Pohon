@@ -126,7 +126,7 @@
 
 @media (min-width: 1024px) {
     .topbg-4 {
-        background-position-y: -300px;
+        background-position-y: 60%;
     }
 }
 
